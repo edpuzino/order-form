@@ -9,7 +9,7 @@ var Cart = function (items) {
 Cart.prototype.addItem = function (product, quantity) {
     // Fill in this instance method to create a new CartItem and add it to this.items
     new CartItem(product, quantity);
-    /*cart= Cart([product, quantity]);*/
+
 };
 
 Cart.prototype.saveToLocalStorage = function () {
@@ -26,7 +26,6 @@ Cart.prototype.removeItem = function (item) {
 var CartItem = function (product, quantity) {
     this.product = product;
     this.quantity = quantity;
-    /*cart = Cart(this);*/
     newItems.push(this);
 };
 
