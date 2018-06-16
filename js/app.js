@@ -3,7 +3,7 @@
 // Cart constructor.
 var Cart = function (items) {
     // this.items is an array of CartItem instances.
-    this.items = items;
+    /*this.items = items;*/
 };
 
 Cart.prototype.addItem = function (product, quantity) {
