@@ -38,13 +38,13 @@ function handleSubmit(event) {
 // Add the selected item and quantity to the cart
 function addSelectedItemToCart() {
 
-    // suss out the item picked from the select list
-    // get the quantity
-    // using those, add one item to the Cart
-    debugger;
-    var product = document.getElementById('items').selectedIndex;
-    var quantity = parseInt(document.getElementById('quantity').value);
-    cart.addItem(product, quantity);
+  // suss out the item picked from the select list
+  // get the quantity
+  // using those, add one item to the Cart
+  
+  var product = document.getElementById('items').selectedIndex;
+  var quantity = parseInt(document.getElementById('quantity').value);
+  cart.addItem(product, quantity);
 }
 
 // TODO: Update the cart count in the header nav with the number of items in the Cart
